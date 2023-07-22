@@ -1,0 +1,29 @@
+html * {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 24px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.float {
+    background-color: rgb(228, 228, 228);
+    box-shadow: 0 3px 3px rgb(210, 210, 210);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+}
+
+.navbar h1 {
+    font-size: 20px;
+}
